@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Is anyone there?"],
+      "responses": ["Hello! How can I help you?", "Hi there, what can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I am leaving"],
+      "responses": ["Goodbye!", "Have a nice day!", "Talk to you later."]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What do you do?", "What is your purpose?"],
+      "responses": ["I am a Hybrid Chatbot built for my AI Traineeship application!"]
+    }
+  ]
+}
